@@ -1,0 +1,12 @@
+<head>
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js"></script>
+  <script>
+    async function main() {
+      let pyodide = await loadPyodide({
+        indexURL : "https://cdn.jsdelivr.net/pyodide/v0.20.0/full/"
+      });
+      console.log(pyodide.runPython("print('Prototyping loaded Successfully')"));
+    };
+    main();
+  </script>
+</head>
