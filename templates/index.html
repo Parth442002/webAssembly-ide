@@ -3,36 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- install tailwindcss from cdn, don't do this for production application -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- install pyodide version 0.20.0 -->
     <script src="https://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js"></script>
-    <!-- import codemirror stylings -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.css"
     />
-    <!-- install codemirror.js version /5.63.3 from cdn -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.js"
       integrity="sha512-XMlgZzPyVXf1I/wbGnofk1Hfdx+zAWyZjh6c21yGo/k1zNC4Ve6xcQnTDTCHrjFGsOrVicJsBURLYktVEu/8vQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <!-- install codemirror python language support -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/mode/python/python.min.js"
       integrity="sha512-/mavDpedrvPG/0Grj2Ughxte/fsm42ZmZWWpHz1jCbzd5ECv8CB7PomGtw0NAnhHmE/lkDFkRMupjoohbKNA1Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <!-- import codemirror dracula theme styles from cdn -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/theme/dracula.css"
     />
     <style>
-      /* set codemirror ide height to 100% of the textarea */
       .CodeMirror {
         height: 100%;
       }
@@ -123,7 +116,8 @@
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
           <a
-            href="#responsive-header"
+            target="_blank"
+            href="https://github.com/Parth442002/webAssembly-ide"
             class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 text-lg"
           >
             Project Code
